@@ -1,0 +1,28 @@
+// 1) PENSAR CUAL ES LA SOLUCION
+
+// A  HACER CLIC EN EL BOTON
+// B  ABRIR CARTEL
+// C  MOSTRAR EN EL CARTEL @HOLA
+
+
+//A1 - IDENTIFICAR EL BOTON
+//A2 - IDENTIFICAFR CUANDO SE HACE CLIC EN EL BOTON
+
+//B  - HACER ALGUN MEOTDO O FUNCION PARA QUE ABRA UN CARTEL 
+
+//C  - INTRODUCIR UN TEXTO QUE DIGA HOLA EN EL BOTON
+
+
+// ID= boton1
+
+// EVENTO = CLICK
+
+// METODO = ALERT()
+
+// TEXTO = HOLA
+
+let boton = document.getElementById('boton1')
+boton.addEventListener('click',()=>{
+    alert('HOLA')
+})
+
